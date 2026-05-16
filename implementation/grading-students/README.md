@@ -1,4 +1,4 @@
-# [Grading Students]
+# Grading Students
 
 ## 💡 Intuition & Approach
 We iterate through the grades and use modular arithmetic (% 5) to round up scores by checking their distance to the next multiple of 5. Grades below 38 are ignored to preserve failing statuses.

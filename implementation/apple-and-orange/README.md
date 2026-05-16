@@ -1,4 +1,4 @@
-# [Apple and Orange]
+# Apple and Orange
 
 ## 💡 Intuition & Approach
 We simulate the fruit fall by calculating the landing position for each apple and orange. By checking if the resulting position ($tree\_position + distance$) falls within the inclusive range $[s, t]$, we determine the total count of fruits that land on the house.

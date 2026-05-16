@@ -1,4 +1,4 @@
-# [Super Reduced String]
+# Super Reduced String
 
 ## 💡 Intuition & Approach
 We utilize a Stack data structure to process the string in a single linear scan.
