@@ -5,7 +5,7 @@
 ### 🚀 Quick Comparison Matrix
 
 | Solutions & Approaches | Time | Space |
-| :--- | :---: | :---: |
+| :--- | :--- | :--- |
 | **s0:** Alphanumeric Sets + Boolean Accumulation | $O(n)$ | $O(1)$ |
 
 ---
