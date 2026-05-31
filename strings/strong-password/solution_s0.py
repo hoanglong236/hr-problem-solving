@@ -9,8 +9,8 @@ class Solution:
     #  2. STRING password
     #
     def minimumNumber(self, n, password):
-        n = len(password)
-        miss_len = 0 if n >= 6 else 6 - n
+        cur_len = len(password)
+        miss_len = 0 if cur_len >= 6 else 6 - cur_len
 
         numbers = set("0123456789")
         lower_case = set("abcdefghijklmnopqrstuvwxyz")
@@ -21,14 +21,14 @@ class Solution:
         has_lower = False
         has_upper = False
         has_special = False
-        total_miss_types = 4
 
         for ch in set(password):
             has_number = has_number or ch in numbers
             has_lower = has_lower or ch in lower_case
             has_upper = has_upper or ch in upper_case
             has_special = has_special or ch in special_characters
-            total_miss_types = 4 - has_number - has_lower - has_upper - has_special
-            if not total_miss_types:
+            if has_number and has_lower and has_upper and has_special:
                 break
+
+        total_miss_types = 4 - has_number - has_lower - has_upper - has_special
         return max(miss_len, total_miss_types)
