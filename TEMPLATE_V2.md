@@ -5,7 +5,7 @@
 ### 🚀 Quick Comparison Matrix
 
 | Solutions & Approaches | Time | Space |
-| :--- | :---: | :---: |
+| :--- | :--- | :--- |
 | **s0:** [Technique 1 Name] | $O(n)$ | $O(n)$ |
 | **s1:** [Technique 2 Name (Optional)] | $O(n)$ | $O(n)$ |
 
