@@ -4,7 +4,7 @@
 
 ### 🚀 Quick Comparison Matrix
 
-| Solutions & Approaches | Time | Space |
+| Solutions & Approaches | Time Complexity | Space Complexity |
 | :--- | :--- | :--- |
 | **s0:** [Technique 1 Name] | $O(n)$ | $O(n)$ |
 | **s1:** [Technique 2 Name (Optional)] | $O(n)$ | $O(n)$ |
@@ -20,8 +20,8 @@
 
 #### 🛠️ Technical Details
 - **Pattern:** [e.g., Stack, Two Pointers, Sliding Window, Greedy]
-- **Time** $O(n)$: [Why?]
-- **Space** $O(n)$: [Why?]
+- **Time Complexity:** $O(n)$ — [Why?]
+- **Space Complexity:** $O(n)$ — [Why?]
 
 ### 2. [Technique 2 Name (Optional)]
 
@@ -30,8 +30,8 @@
 
 #### 🛠️ Technical Details
 - **Pattern:** [e.g., Stack, Two Pointers, Sliding Window, Greedy]
-- **Time** $O(n)$: [Why?]
-- **Space** $O(n)$: [Why?]
+- **Time Complexity:** $O(n)$ — [Why?]
+- **Space Complexity:** $O(n)$ — [Why?]
 
 
 ## II. Testing & Edge Cases
