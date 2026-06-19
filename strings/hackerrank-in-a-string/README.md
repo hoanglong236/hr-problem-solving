@@ -6,17 +6,17 @@
 
 | Solutions & Approaches | Time Complexity | Space Complexity |
 | :--- | :--- | :--- |
-| **s0:** Two-Pointer Subsequence Scan | $O(n)$ | $O(1)$ |
+| **s0:** Two Pointers Subsequence Scan | $O(n)$ | $O(1)$ |
 
 ---
 
-### 1. Two-Pointer Subsequence Scan
+### 1. Two Pointers Subsequence Scan
 
 #### 💡 Intuition & Approach
 By using the target string `"hackerrank"` as our reference pattern, we maintain a pointer to track our current matching position within the target pattern. We then perform a single linear scan through the input string. Whenever the current character matches the expected pattern character, we increment our tracking index. If the index reaches the full length of the pattern, we immediately return `"YES"`. If the loop finishes without matching the entire pattern, we return `"NO"`.
 
 #### 🛠️ Technical Details
-- **Pattern:** Two Pointer
+- **Pattern:** Two Pointers
 - **Time Complexity:** $O(n)$ — A single linear scan across the input string.
 - **Space Complexity:** $O(1)$ — Auxiliary space utilized for the pattern string and the two pointers.
 
